@@ -1,15 +1,12 @@
 <template>
-  <div id="app">
-    <h1>Hello World</h1>
-  </div>
+  <p>Server Status: {{status}}</p>
 </template>
 
 <script>
 export default {
-  name: "app",
   data() {
     return {
-      msg: "Welcome to Your Vue.js App",
+      status: "Critical",
     };
   },
 };
@@ -17,3 +14,4 @@ export default {
 
 <style>
 </style>
+ 
